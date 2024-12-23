@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function AppJSX() {
   const name = '하루'
   const list = ['딸기', '키위', '바나나']
   const lists = list.map((item, index) =>
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppJSX;
