@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import AppProfile from './AppProfile';
 import reportWebVitals from './reportWebVitals';
+import AppCounter from './AppCounter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // 'root' 라는 ID element를 가져와서  createRoot AIP(브라우저에서 제공)를 통해 루트를 만들어준다. (시작 포인트)
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // 배포할때는 자동으로 엄격모드가 해제된다.
 root.render(
   <React.StrictMode>
-    <AppProfile /> 
+    <AppCounter />
   </React.StrictMode>
 );
 
